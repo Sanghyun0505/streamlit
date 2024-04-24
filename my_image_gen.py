@@ -7,7 +7,6 @@ import streamlit as st
 openai_api_key_str = st.secrets["OPENAI_API_KEY"]
 
 
-print(openai_api_key_str)
 
 def translate_text_for_image(text):
     client = OpenAI(
